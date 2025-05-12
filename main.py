@@ -15,7 +15,7 @@ def main():
     print("============ BOOKBOT ============")
     print("Analyzing book found at books/frankenstein.txt...")
     print("----------- Word Count ----------")
-    print(f"{word_count} words found in the document")
+    print(f"Found {word_count} total words")
     print("--------- Character Count -------")
     for letter in letter_count:
         print(f"{letter["char"]}: {letter["num"]}")
